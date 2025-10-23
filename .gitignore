@@ -1,0 +1,12 @@
+# Python缓存
+__pycache__/
+*.pyc
+# 数据和模型权重
+data/
+models/
+*.pt
+*.pth
+# 环境和临时文件
+venv/
+*.log
+mosek.lic
