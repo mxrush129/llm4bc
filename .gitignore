@@ -7,4 +7,5 @@ data/
 figures/
 scripts/script/trans.ipynb
 tests/
-src/
+src/core/demos
+src/core/parameter_tuning.py
