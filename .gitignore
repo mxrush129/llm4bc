@@ -1,0 +1,10 @@
+docs/
+results/
+logs/
+.claude/
+/config
+data/
+figures/
+scripts/script/trans.ipynb
+tests/
+src/
