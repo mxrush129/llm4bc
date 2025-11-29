@@ -37,22 +37,22 @@ Below is a sample entry from the augmented dataset:
 ```json
 {
   "name": "C1_cdt_1",
-  "n": 2,  // System dimension
+  "n": 2,  # System dimension
   "D_zones": [[0.40749882677907323, 2.5185794201130696],
       [1.6225885178345565, 5.320109187814466]
-  ], // System domain, format: [[lb1, lb2], [ub1, ub2]]
+  ], # System domain, format: [[lb1, lb2], [ub1, ub2]]
   "I_zones": [
       [1.9908092717795705, 2.2546943459463202],
       [1.530150501085059, 1.7150265345840543]
-  ], // Initial set
+  ], # Initial set
   "U_zones": [
       [0.40749882677907323, 0.9352689751125723],
       [2.5469686853295337, 3.471348852824511]
-  ], // Unsafe set
+  ], # Unsafe set
   "f_expressions": [
       "0.617651618470489*x1**2 - 4.00269602117782*x1 + 2.49361377157736",
       "-3.31864635401627*x0**2 + 9.71061890561493*x0 + 1.21591382155993"
-  ], // System differential equations (Vector Field)
+  ], # System differential equations (Vector Field)
   "barrier_expr": "-13.2338066019222*x0**2 - ... + 12.8832685534349" // Barrier Certificate
 }
 ```
