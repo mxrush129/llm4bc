@@ -34,7 +34,7 @@ The results will be output to the `results/augmented_systems_small` directory, w
 
 Below is a sample entry from the augmented dataset:
 
-```json
+```txt
 {
   "name": "C1_cdt_1",
   "n": 2,  # System dimension
@@ -53,7 +53,7 @@ Below is a sample entry from the augmented dataset:
       "0.617651618470489*x1**2 - 4.00269602117782*x1 + 2.49361377157736",
       "-3.31864635401627*x0**2 + 9.71061890561493*x0 + 1.21591382155993"
   ], # System differential equations (Vector Field)
-  "barrier_expr": "-13.2338066019222*x0**2 - ... + 12.8832685534349" // Barrier Certificate
+  "barrier_expr": "-13.2338066019222*x0**2 - ... + 12.8832685534349" # Barrier Certificate
 }
 ```
 
